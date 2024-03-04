@@ -1,0 +1,103 @@
+
+@import url(../css/nav/nav.css);
+
+
+@import url(../css/navigation2/navigation2.css);
+
+
+@import url(../css/modell/model.css);
+
+
+@import url(../css/select/select.css);
+
+
+@import url(../css/collection/collection.css);
+
+
+@import url(./experiance/experiance.css);
+
+
+@import url(./choose/choose.css);
+
+
+@import url(./brands/brands.css);
+
+
+@import url(./items/items.css);
+
+
+@import url(../css/about/about.css);
+
+
+@import url(./dounload/download.css);
+
+
+@import url(./subscribe/subscribe.css);
+
+
+@import url(./footer/footer.css);
+
+
+@import url(./explore/explore.css);
+
+
+@import url(./type/type.css);
+
+
+@import url(./tesla/tesla.css);
+
+
+@import url(./home/home.css);
+
+
+@import url(./collect/collect.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1310px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Mulish';
+}
+
+.header1{
+    background-image: url(../img/header\bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(90deg, #000 0.04%, rgba(255, 255, 255, 0.00) 99.97%);
+}
+.header2{
+    background:#f92832 !important;
+    padding-top:  60px; ;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Regular.ttf');
+    font-weight: 400;
+}
